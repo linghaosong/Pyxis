@@ -13,7 +13,7 @@
 
 ## U280 SpMM Accelerator and Perforamnce 
 
-* Vitis tool: 2020.2
+* HLS tool: Vitis 2020.2
 * U280 SpMM Accelerator: [Sextans-U280](https://github.com/linghaosong/Sextans/tree/hls/U280)
 * Number of collected perforamnce instances: 18459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
