@@ -1,6 +1,47 @@
 # Pyxis: An Open-Source Performance Dataset of Sparse Accelerators
 
-Details coming soon. 
+
+## U250 SpMM Accelerator and Perforamnce 
+
+* HLS tool: Vitis 2020.2
+* U250 SpMM Accelerator: [Sextans-U250](https://github.com/linghaosong/Sextans/tree/hls/U250)
+* Number of collected perforamnce instances: 18,459
+* Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
+* Files: Pyxis/perfdata/20211003_U250_binary.txt, Pyxis/perfdata/20211003_U250_real.txt.
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+
+
+## U280 SpMM Accelerator and Perforamnce 
+
+* Vitis tool: 2020.2
+* U280 SpMM Accelerator: [Sextans-U280](https://github.com/linghaosong/Sextans/tree/hls/U280)
+* Number of collected perforamnce instances: 18459
+* Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
+* Files: Pyxis/perfdata/20211003_U280_binary.txt, Pyxis/perfdata/20211003_U280_real.txt.
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+
+
+We also collocted perfoamnce data on two GPUs.
+
+## K80 SpMM Perforamnce 
+
+* CUDA version: 10.2
+* Number of collected perforamnce instances: 18459
+* Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
+* Files: Pyxis/perfdata/20211003_K80_binary.txt, Pyxis/perfdata/20211003_K80_real.txt.
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+
+
+## V100 SpMM Perforamnce 
+
+* CUDA version: 10.2
+* Number of collected perforamnce instances: 18459
+* Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
+* Files: Pyxis/perfdata/20211003_V100_binary.txt, Pyxis/perfdata/20211003_V100_real.txt.
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+
+
+More details coming soon. 
 
 Or you can go to [this link](https://arxiv.org/abs/2110.04280) to find details.
 
