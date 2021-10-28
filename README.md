@@ -19,7 +19,7 @@ Pyxis collects sparse accelerators and their perforamnce data. We hope this data
 
 * HLS tool: Vitis 2020.2
 * U280 SpMM Accelerator: [Sextans-U280](https://github.com/linghaosong/Sextans/tree/hls/U280)
-* Number of collected perforamnce instances: 18459
+* Number of collected perforamnce instances: 18,459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_U280_binary.txt, Pyxis/perfdata/20211003_U280_real.txt.
 * One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
@@ -30,7 +30,7 @@ We also collocted perfoamnce data on two GPUs.
 ## K80 SpMM Perforamnce 
 
 * CUDA version: 10.2
-* Number of collected perforamnce instances: 18459
+* Number of collected perforamnce instances: 18,459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_K80_binary.txt, Pyxis/perfdata/20211003_K80_real.txt.
 * One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
@@ -39,7 +39,7 @@ We also collocted perfoamnce data on two GPUs.
 ## V100 SpMM Perforamnce 
 
 * CUDA version: 10.2
-* Number of collected perforamnce instances: 18459
+* Number of collected perforamnce instances: 18,459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_V100_binary.txt, Pyxis/perfdata/20211003_V100_real.txt.
 * One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
