@@ -1,8 +1,8 @@
 # Pyxis: An Open-Source Performance Dataset of Sparse Accelerators
 
 Pyxis collects sparse accelerators and their perforamnce data. We hope this dataset is helpful for inereted researchers in the fileds of computer architecture, FPGA, systems, perforamnce and algorithm. Specifically, 
-* (1) the collected acclerators may be a good refrence design for hardware related researchers
-* (2) the collected performance data serves as a large scale (73.8K) labels of graphs with various sizes.
+* (1) the collected acclerators may be a good refrence design for hardware related researchers,
+* (2) the collected performance data serves as a large scale (73.8K) labels of graphs with various sizes and my be helpful for graph algorithm researchers.
 
 
 ## U250 SpMM Accelerator and Perforamnce 
