@@ -12,7 +12,7 @@ Pyxis collects sparse accelerators and their perforamnce data. We hope this data
 * Number of collected perforamnce instances: 18,459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_U250_binary.txt, Pyxis/perfdata/20211003_U250_real.txt.
-* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
 
 
 ## U280 SpMM Accelerator and Perforamnce 
@@ -22,7 +22,7 @@ Pyxis collects sparse accelerators and their perforamnce data. We hope this data
 * Number of collected perforamnce instances: 18459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_U280_binary.txt, Pyxis/perfdata/20211003_U280_real.txt.
-* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
 
 
 We also collocted perfoamnce data on two GPUs.
@@ -33,7 +33,7 @@ We also collocted perfoamnce data on two GPUs.
 * Number of collected perforamnce instances: 18459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_K80_binary.txt, Pyxis/perfdata/20211003_K80_real.txt.
-* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
 
 
 ## V100 SpMM Perforamnce 
@@ -42,7 +42,7 @@ We also collocted perfoamnce data on two GPUs.
 * Number of collected perforamnce instances: 18459
 * Runing on 2,637 sparse matrices from [SuiteSparse](https://sparse.tamu.edu)
 * Files: Pyxis/perfdata/20211003_V100_binary.txt, Pyxis/perfdata/20211003_V100_real.txt.
-* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(s)] [Throughput(GFLOP/s)]
+* One line is a perforamcne instance showing 8 properties: [Matrix ID] [Row Number: M] [Column Number: K] [NNZ] [N] [Latency(ms)] [Throughput(GFLOP/s)]
 
 
 More details coming soon. 
